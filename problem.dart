@@ -8,8 +8,8 @@ import 'package:comcrop/models/users.dart';
 class FlipCropCard extends StatefulWidget {
   final Widget croptype;
   final Map<String, dynamic> profile;
-  final int index;
-  FlipCropCard({this.croptype, this.profile, this.index});
+  
+  FlipCropCard({this.croptype, this.profile});
   @override
   _FlipCropCardState createState() => _FlipCropCardState();
 }
